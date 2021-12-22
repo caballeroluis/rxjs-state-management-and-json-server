@@ -1,0 +1,13 @@
+<session-header></session-header>
+
+<form [formGroup]="reactiveForm" (ngSubmit)="submitForm()" novalidate>
+  
+    <label>
+        <span>email</span>
+        <input type="text" placeholder="Your email" formControlName="email">
+    </label>
+    
+    <button mat-raised-button color="secondary" type="submit">
+        Update
+    </button>
+</form>

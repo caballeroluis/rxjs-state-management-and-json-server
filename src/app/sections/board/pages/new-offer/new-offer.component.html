@@ -1,0 +1,53 @@
+<board-header></board-header>
+
+<form [formGroup]="reactiveForm" (ngSubmit)="submitForm()" novalidate>
+
+    <label>
+        <span>salary</span>
+        <input type="number" placeholder="Offer salary" formControlName="salary">
+    </label><br>
+    
+    <label>
+        <span>title</span>
+        <input type="text" placeholder="Offer title" formControlName="title">
+    </label><br>
+    
+    <label>
+        <span>requirements</span>
+        <input type="text" placeholder="Offer requirements" formControlName="requirements">
+    </label><br>
+  
+    <label>
+        <span>abandoned</span>
+        <input type="checkbox" formControlName="abandoned"><br>
+    </label>
+    
+    <label>
+        <span>workplaceAddress</span>
+        <input type="text" placeholder="Offer workplaceAddress" formControlName="workplaceAddress">
+    </label><br>
+
+    <label>
+        <span>videoCallLink</span>
+        <input type="text" placeholder="Offer videoCallLink" formControlName="videoCallLink">
+    </label><br>
+    
+    <label>
+        <span>description</span>
+        <input type="text" placeholder="Offer description" formControlName="description">
+    </label><br>
+    
+    <label>
+        <span>worker</span>
+
+        <select formControlName="worker">
+            <option [ngValue]="worker" *ngFor="let worker of (stateSS.workers$ | async); trackBy: getIdTrackFn">
+                {{ worker.name }}
+            </option>
+        </select>
+    </label><br>
+  
+    <button mat-raised-button color="secondary" type="submit">
+        Create
+    </button>
+</form>

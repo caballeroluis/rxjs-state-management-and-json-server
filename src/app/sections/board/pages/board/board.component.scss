@@ -1,0 +1,59 @@
+$tool-bar-heigth: 64px;
+$app-padding: 12px;
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.example-header-image {
+  background-image: url('https://angular.io/assets/images/logos/angular/angular.svg');
+  background-size: cover;
+}
+
+.incompleted, .opened, .video-conference-set, .acepted  {
+  padding: $app-padding;
+}
+
+.acepted {
+  grid-area: acepted;
+}
+.video-conference-set {
+  grid-area: video-conference-set;
+}
+.opened {
+  grid-area: opened;
+}
+.incompleted {
+  grid-area: incompleted;
+}
+
+.colum {
+  height: calc(100vh - #{$tool-bar-heigth} - 48px);
+}
+
+.colum-header {
+  mat-toolbar {
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+.colum-body {
+  height: calc(100vh - #{$tool-bar-heigth} - 136px);
+  overflow-y: scroll;
+  padding: $app-padding;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+.example-card:not(:first-of-type) {
+  margin-top: 12px;
+}
+
+.columns-container {
+  padding: $app-padding;
+  display: grid;
+  grid-template-columns: minmax(320px, 550px) minmax(320px, 550px) minmax(320px, 550px) minmax(320px, 550px); 
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "incompleted opened video-conference-set acepted";
+}

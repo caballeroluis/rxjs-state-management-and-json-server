@@ -1,0 +1,20 @@
+$tool-bar-heigth: 64px;
+$app-padding: 12px;
+
+
+.sidenav-container {
+  height: calc(100vh - #{$tool-bar-heigth});
+}
+
+.sidenav {
+  padding: #{$app-padding};
+  width: calc(144px + 12px * 2);
+  button {
+    width: calc(100% - 8px);
+    margin-left: 4px;
+  }
+}
+
+.sidenav-content {
+  height: calc(100vh - #{$tool-bar-heigth});
+}

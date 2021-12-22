@@ -1,0 +1,39 @@
+<admin-header></admin-header>
+
+<button mat-raised-button (click)="getUsers()">
+    getUsers()
+</button>
+<div *ngFor="let user of (stateSS.users$ | async)">
+    <div style="background-color: blanchedalmond;">
+        <p>Role: <span style="background-color: lightblue">{{ user.role }}</span></p>
+        <p>
+            Active:
+            <span *ngIf="user.active" style="background-color: palegreen;">{{ user.active }}</span>
+        </p>
+        <p>Email: <span style="background-color: lightblue">{{ user.email }}</span></p>
+        <p>Name: <span style="background-color: lightblue">{{ user.name }}</span></p>
+        <p>Recruiter name: <span style="background-color: lightblue">{{ user.recruiterName }}</span></p>
+        <p>Description corporate: <span style="background-color: lightblue">{{ user.descriptionCorporate }}</span></p>
+        <p>International: <span style="background-color: lightblue">{{ user.international }}</span></p>
+        <p>Corporation name: <span style="background-color: lightblue">{{ user.corporationName }}</span></p>
+        <p>Creation date: <span style="background-color: lightblue">{{ user.creationDate }}</span></p>
+        <button mat-raised-button (click)="deleteUser(user)" *ngIf="
+            !((stateSS.session$ | async)?.token === '') &&
+            (stateSS.session$ | async)?.user?._id === user._id ||
+            (stateSS.session$ | async)?.user?.role === 'admin'
+        ">
+            X
+        </button>
+        <!-- <button mat-raised-button (click)="editUser(user)">
+        Edit
+        </button>
+        <app-edit-user></app-edit-user> -->
+    </div>
+</div>
+
+<div>
+    <p>Users:</p>
+    <pre>
+        {{ (stateSS.users$ | async) | json }}
+    </pre>
+</div>

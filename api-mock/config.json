@@ -1,0 +1,7 @@
+{
+  "port": 3001,
+  "delay": 200,
+  "id": "_id",
+  "routes": "./api-mock/routes.json",
+  "middlewares": "./api-mock/fakeSessionMiddleware.js"
+}

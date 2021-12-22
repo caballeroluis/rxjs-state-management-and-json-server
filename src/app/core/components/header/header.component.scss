@@ -1,0 +1,10 @@
+$tool-bar-heigth: 64px;
+$app-padding: 12px;
+
+mat-toolbar {
+  height: $tool-bar-heigth;
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+}

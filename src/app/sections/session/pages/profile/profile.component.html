@@ -1,0 +1,28 @@
+<session-header></session-header>
+
+<form [formGroup]="reactiveForm" (ngSubmit)="submitForm()" novalidate>
+  
+    <label *ngIf="(stateSS.session$ | async)?.user?.role === 'worker'">
+        <span>name</span>
+        <input type="text" placeholder="Your name" formControlName="name"><br>
+    </label>
+  
+    <label *ngIf="(stateSS.session$ | async)?.user?.role === 'recruiter'">
+        <span>corporation name</span>
+        <input type="text" placeholder="Your corporation name" formControlName="corporationName"><br>
+    </label>
+
+    <label *ngIf="(stateSS.session$ | async)?.user?.role === 'recruiter'">
+        <span>description corporate</span>
+        <input type="text" placeholder="Your description corporate" formControlName="descriptionCorporate"><br>
+    </label>
+  
+    <label *ngIf="(stateSS.session$ | async)?.user?.role === 'recruiter'">
+        <span>international</span>
+        <input type="checkbox" formControlName="international"><br>
+    </label>
+  
+    <button mat-raised-button color="secondary" type="submit">
+        Update
+    </button>
+</form>

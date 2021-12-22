@@ -1,0 +1,20 @@
+<mat-drawer-container class="sidenav-container" [hasBackdrop]="(stateSS.userInterface$ | async)?.smallScreen" autosize>
+    <mat-drawer #sidenav [mode]="(stateSS.userInterface$ | async)?.smallScreen ? 'over' : 'side'" [opened]="!(stateSS.userInterface$ | async)?.coreSidenavClosed">
+        <nav class="sidenav">
+            <div *ngIf="(stateSS.userInterface$ | async)?.smallScreen; else buttonsWithoutToggleMenu" (click)="sidenavToggle()">
+                <p><button mat-raised-button routerLink="/board">Board</button></p>
+                <p><button mat-raised-button routerLink="/admin">Admin</button></p>
+            </div>
+    
+            <ng-template #buttonsWithoutToggleMenu>
+                <p><button mat-raised-button routerLink="/board">Board</button></p>
+                <p><button mat-raised-button routerLink="/admin">Admin</button></p>
+            </ng-template>
+        </nav>
+    </mat-drawer>
+
+    <section class="sidenav-content">
+        <router-outlet></router-outlet>
+    </section>
+
+</mat-drawer-container>

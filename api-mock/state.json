@@ -1,0 +1,386 @@
+{
+  "session": {
+    "user": {
+      "id": "6209490cf9a8fc2c209ee45a",
+      "corporationName": "Empresa S.A.",
+      "descriptionCorporate": "Company description",
+      "international": false,
+      "email": "noreply@github.com",
+      "role": "recruiter",
+      "surname1": "García",
+      "surname2": "Fernandez",
+      "contactData": "C/ Falsa 123",
+      "offers": [],
+      "img": "/path/filename.jpg",
+      "creationDate": "2021-12-13T18:08:12.241Z",
+      "__v": 0
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7fSwiaWF0IjoxNjQzNTYzMDU5LCJleHAiOjE2NDM1NjY2NTl9.G9PB_0IZcF0gBkpkxXDCKqY_2jPNOPUW1ri1xHBNTd4"
+  },
+  "users": [
+    {
+      "_id": "620906c3f9a8fc2c209ee3f4",
+      "name": "workersico",
+      "role": "worker",
+      "creationDate": "2021-12-13T13:25:23.014Z"
+    },
+    {
+      "_id": "62094471f9a8fc2c209ee43f",
+      "corporationName": "",
+      "descriptionCorporate": "",
+      "role": "admin",
+      "creationDate": "2021-12-13T17:48:33.820Z"
+    },
+    {
+      "_id": "62094479f9a8fc2c209ee443",
+      "name": "workersito",
+      "role": "worker",
+      "creationDate": "2021-12-13T17:48:41.687Z"
+    },
+    {
+      "_id": "6209490cf9a8fc2c209ee45a",
+      "corporationName": "Empresa S.A.",
+      "descriptionCorporate": "Me describo la empresa",
+      "role": "recruiter",
+      "creationDate": "2021-12-13T18:08:12.241Z"
+    },
+    {
+      "_id": "62094deef9a8fc2c209ee47b",
+      "corporationName": "",
+      "descriptionCorporate": "",
+      "role": "recruiter",
+      "creationDate": "2021-12-13T18:29:02.247Z"
+    },
+    {
+      "_id": "620a3cab9dd13dedc5327411",
+      "corporationName": "",
+      "descriptionCorporate": "",
+      "role": "recruiter",
+      "creationDate": "2021-12-14T11:27:39.022Z"
+    },
+    {
+      "_id": "620ae678ddd54f721e3a3f9e",
+      "corporationName": "",
+      "descriptionCorporate": "",
+      "role": "recruiter",
+      "creationDate": "2021-12-14T23:32:08.485Z"
+    },
+    {
+      "_id": "620b0600ddd54f721e3a4270",
+      "name": "workersito",
+      "role": "worker",
+      "creationDate": "2021-12-15T01:46:40.324Z"
+    },
+    {
+      "_id": "620b064eddd54f721e3a4282",
+      "name": "workersito2",
+      "role": "worker",
+      "creationDate": "2021-12-15T01:47:58.244Z"
+    },
+    {
+      "_id": "620b06a0ddd54f721e3a428f",
+      "name": "workersito4",
+      "role": "worker",
+      "creationDate": "2021-12-15T01:49:20.477Z"
+    },
+    {
+      "_id": "620b06daddd54f721e3a429b",
+      "name": "workersito5",
+      "role": "worker",
+      "creationDate": "2021-12-15T01:50:18.237Z"
+    },
+    {
+      "_id": "620b0756ddd54f721e3a42a3",
+      "corporationName": "asdf2",
+      "descriptionCorporate": "",
+      "role": "recruiter",
+      "creationDate": "2021-12-15T01:52:22.808Z"
+    },
+    {
+      "email": "",
+      "password": "",
+      "name": "",
+      "corporationName": "",
+      "descriptionCorporate": "",
+      "international": false,
+      "role": "",
+      "_id": "AhzzGc9"
+    }
+  ],
+  "offers": [
+    {
+      "_id": "62094934f9a8fc2c209ee467",
+      "creationDate": "2021-12-13T18:08:52.742Z",
+      "salary": 18000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "opened",
+      "workerAssigned": {
+        "_id": "62094479f9a8fc2c209ee443",
+        "name": "workersito",
+        "role": "worker",
+        "creationDate": "2021-12-13T17:48:41.687Z",
+        "__v": 2
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee496",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 17000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "incompleted",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee499",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 29000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "opened",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee410",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 19000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "opened",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee411",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 23000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "opened",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee412",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 24000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "opened",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee413",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 23000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "opened",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee414",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 22000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "videoconferenceSet",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62094f81f9a8fc2c209ee415",
+      "creationDate": "2021-12-13T18:35:45.202Z",
+      "salary": 21000,
+      "title": "Front-end Developer",
+      "requirements": "Angular",
+      "workplaceAdress": "calle falsa 123",
+      "description": "Some description.",
+      "status": "videoconferenceSet",
+      "workerAssigned": {
+        "_id": "620906c3f9a8fc2c209ee3f4",
+        "name": "workersico",
+        "role": "worker",
+        "creationDate": "2021-12-13T13:25:23.014Z",
+        "__v": 1
+      },
+      "recruiterAssigned": {
+        "_id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "role": "recruiter",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 4
+      },
+      "__v": 0
+    },
+    {
+      "salary": "",
+      "title": "",
+      "requirements": "",
+      "abandoned": false,
+      "workplaceAddress": "",
+      "videoCallLink": "",
+      "description": "",
+      "worker": {
+        "_id": "62094479f9a8fc2c209ee443",
+        "name": "workersito",
+        "role": "worker",
+        "creationDate": "2021-12-13T17:48:41.687Z"
+      },
+      "recruiter": {
+        "id": "6209490cf9a8fc2c209ee45a",
+        "corporationName": "Empresa S.A.",
+        "descriptionCorporate": "Me describo la empresa",
+        "international": false,
+        "email": "noreply@github.com",
+        "role": "recruiter",
+        "surname1": "García",
+        "surname2": "Fernandez",
+        "contactData": "C/ Falsa 123",
+        "offers": [],
+        "img": "/path/filename.jpg",
+        "creationDate": "2021-12-13T18:08:12.241Z",
+        "__v": 0
+      },
+      "_id": "K9PBBZh"
+    }
+  ]
+}
