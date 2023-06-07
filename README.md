@@ -14,10 +14,16 @@ Run `npm install` for get dependencies.
 
 Run `npm run mockClient` for a dev client. Navigate to `http://localhost:4201/`. The app will automatically reload if you change any of the source files.
 
-Run `npm run mockServer` for a mock server in a port 3001. You can see JSON Server working with middlewares, routes and other configurations.
+Run `npm run mockServer` for a mock server in a port 3001. You can see JSON Server working with middlewares, routes and other configurations:
+
+<img width="1150" alt="Screenshot 2023-06-07 at 18 50 54" src="https://github.com/caballeroluis/rxjs-state-management-and-json-server/assets/111797757/043e9bcf-cecc-4f28-92a7-8bbe3fdfdb1e">
+
 ## State Management
 
-Click the [👁] button on the main screen to view the RxJS State Management data in the browser console.
+Click the [👁] button on the main screen to view the RxJS State Management data in the browser console:
+
+<img width="1149" alt="Screenshot 2023-06-07 at 18 33 14" src="https://github.com/caballeroluis/rxjs-state-management-and-json-server/assets/111797757/48153b4b-f020-4afd-be03-eb1e85c63b1d">
+
 ## License
 
 MIT
